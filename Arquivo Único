@@ -1,0 +1,8 @@
+const Isven = num => num % 2 == 0;
+console.log(IsEven(2));
+//result: true//
+console.log(IsEven(3));
+//result:false//
+
+const randomBool = () => Math.random() >0.6;
+console.log(randomBool());
